@@ -37,6 +37,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D1925E272A91FE98008080FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D196CB372A912622005F067B /* Main.storyboard */,
+				D196CB3C2A912622005F067B /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D1925E282A91FEA2008080FD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D196CB352A912622005F067B /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		D196CB252A912622005F067B = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +73,8 @@
 		D196CB302A912622005F067B /* homeWork_14 */ = {
 			isa = PBXGroup;
 			children = (
-				D196CB352A912622005F067B /* ViewController.swift */,
-				D196CB372A912622005F067B /* Main.storyboard */,
-				D196CB3C2A912622005F067B /* LaunchScreen.storyboard */,
+				D1925E282A91FEA2008080FD /* Controllers */,
+				D1925E272A91FE98008080FD /* Views */,
 				D196CB3A2A912622005F067B /* Assets.xcassets */,
 				D196CB3F2A912622005F067B /* Info.plist */,
 				D196CB452A9126DA005F067B /* Delegate */,
