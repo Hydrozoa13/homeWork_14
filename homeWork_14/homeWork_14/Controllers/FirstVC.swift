@@ -38,6 +38,7 @@ class FirstVC: UIViewController {
         }
     }
     
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goToSecondVC",
            let secondVC = segue.destination as? SecondVC,
@@ -48,7 +49,7 @@ class FirstVC: UIViewController {
         } else if segue.identifier == "goToFourthVC",
                   let fourthVC = segue.destination as? FourthVC
         {
-            fourthVC.dataString = "GG"
+            fourthVC.dataString = "Hello to everybody"
         }
     }
 }
