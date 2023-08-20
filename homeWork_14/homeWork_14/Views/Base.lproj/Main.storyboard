@@ -499,7 +499,7 @@
                                             <color key="baseBackgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <action selector="goToFourthWithoutSegue" destination="wZV-ar-Eui" eventType="touchUpInside" id="E2v-az-Exh"/>
+                                            <action selector="goToFourthWithoutSegue" destination="wZV-ar-Eui" eventType="touchUpInside" id="bEu-VK-xTP"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rvx-zX-rAO">

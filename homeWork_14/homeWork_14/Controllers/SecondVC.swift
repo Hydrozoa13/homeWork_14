@@ -21,8 +21,7 @@ class SecondVC: UIViewController {
     }
   
     @IBAction func closeAction(_ sender: UIButton) {
-        firstVC?.navigationItem.title = "Hello from SecondVC"
+        firstVC?.labelText.text = "Hello from SecondVC"
         dismiss(animated: true)
     }
-    
 }

@@ -29,9 +29,8 @@ class FirstVC: UIViewController {
         else { return }
         fourthVC.navigationItem.title = "FourthVC"
         fourthVC.dataString = "Hello from FirstVC"
-        navigationController?.pushViewController(fourthVC, animated: true)
+        present(fourthVC, animated: true)
     }
-    
     
     @IBAction func unwindToFirstVC(_ unwindSegue: UIStoryboardSegue) {
         if let fourthVC = unwindSegue.source as? FourthVC {
@@ -39,10 +38,6 @@ class FirstVC: UIViewController {
         }
     }
     
-    
-    
-    
-
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goToSecondVC",
            let secondVC = segue.destination as? SecondVC,
@@ -56,6 +51,4 @@ class FirstVC: UIViewController {
             fourthVC.dataString = "GG"
         }
     }
-    
-
 }

@@ -11,8 +11,6 @@ class FourthVC: UIViewController {
 
     var dataString: String?
     
-    weak var firstVC: FirstVC?
-    
     @IBOutlet weak var labelText: UILabel!
     
     override func viewDidLoad() {
